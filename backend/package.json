@@ -1,0 +1,17 @@
+{
+  "name": "Aircnc",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DavidStinghen/Aircnc",
+  "author": "David Stinghen <davidstinghen@gmail.com>",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
