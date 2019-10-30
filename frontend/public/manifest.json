@@ -1,0 +1,21 @@
+{
+  "short_name": "React App",
+  "name": "Create React App Sample",
+  "icons": [
+    {
+      "src": "logo.png",
+      "type": "image/svg"
+    },
+    {
+      "src": "camera.svg",
+      "type": "image/svg"
+    },
+    {
+      "src": "background.jpg",
+      "type": "image/svg"
+    }
+  ],
+  "start_url": "/",
+  "display": "standalone",
+  "background_image": "background.jpg"
+}

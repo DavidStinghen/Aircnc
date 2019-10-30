@@ -12,7 +12,13 @@ export default function Login({ history }) {
 
     const { _id } = response.data;
 
-    localStorage.setItem('user', _id);
+    sessionStorage.setItem('user', _id);
+
+    if (!navigator.onLine) {
+      if(sessionStorage.getItem('user')) {
+        history.push('/dashboard')
+      }
+    }
 
     history.push('/dashboard');
   }
